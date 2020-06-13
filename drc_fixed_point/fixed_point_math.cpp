@@ -1,6 +1,8 @@
 
 #include "fixed_point_math.h"
 
+
+
 FIX_32s fix_div(FIX_32s a, FIX_32s b);
 
 FIX_32s fix_mul(FIX_32s a, FIX_32s b) {
