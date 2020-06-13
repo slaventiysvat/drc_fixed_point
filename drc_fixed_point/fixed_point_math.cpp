@@ -3,6 +3,11 @@
 
 FIX_32s fix_div(FIX_32s a, FIX_32s b);
 
+FIX_32s fix_mul(FIX_32s a, FIX_32s b) {
+
+    return a * b;
+}
+
 FIX_32s fix_mul_rnd(FIX_32s a, FIX_32s b);
 
 FIX_32s fix_add(FIX_32s a, FIX_32s b) {
