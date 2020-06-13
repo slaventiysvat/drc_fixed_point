@@ -1,6 +1,7 @@
 #pragma once
 
 typedef    long int                      FIX_32s;
+typedef    long long int                 FIX_64s;
 typedef    char                          FIX_8sig;
 typedef    unsigned int                  FIX_32uns;
 
