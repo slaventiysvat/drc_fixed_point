@@ -44,7 +44,11 @@ FIX_32s fix_add(FIX_32s a, FIX_32s b) {
 
 }
 
-FIX_32s fix_sub(FIX_32s a, FIX_32s b);
+FIX_32s fix_sub(FIX_32s a, FIX_32s b) {
+
+	return (a - b);
+
+}
 
 FIX_32s fix_mul_sat(FIX_32s a, FIX_32s b);
 
